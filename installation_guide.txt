@@ -1,0 +1,48 @@
+To run the project on your machine, depending on your operating system:
+I have provided a Bash script and a setup guide for Windows (CMD/PowerShell) that will install all necessary system and Python dependencies, execute the simulation, and open the generated reports.
+
+### 1. On Windows (CMD / PowerShell)
+
+1. **Install GTK3 / Cairo for WeasyPrint (Optional, for native PDF export):**
+* Download and run the installer for [GTK3 for Windows](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases).
+
+
+2. **Create an environment and install packages via CMD:**
+
+```cmd
+   :: 1. Create and enter the virtual environment
+   python -m venv venv
+   call venv\Scripts\activate
+
+   :: 2. Update pip and install the suite's dependencies
+   python -m pip install --upgrade pip
+   pip install numpy matplotlib pandas weasyprint
+
+   :: 3. Run the simulation
+   python codigo_Escudo_ELF_ULF_estructuras_v3_5.py
+   
+
+```
+
+---
+
+### 2. On Linux / Ubuntu / WSL (Windows Subsystem for Linux)
+
+Run the following commands directly in your terminal:
+
+```bash
+# Grant execution permissions and run the automated script
+chmod +x setup_and_run.sh
+./setup_and_run.sh
+
+```
+
+---
+
+### Generated Files
+
+Once executed, you will find the following deliverables in the `./generated/` folder:
+
+* `reporte_infraestructura_completo_v35.pdf` — Compiled corporate report.
+* `reporte_infraestructura_completo_v35.html` — Interactive web-based report.
+* `bitacora_rku_espectro_v35.csv` — Numerical records of spectra and damping.

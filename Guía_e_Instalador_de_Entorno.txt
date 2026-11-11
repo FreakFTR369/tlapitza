@@ -1,0 +1,50 @@
+I will provide a bash script and Windows CMD/PowerShell setup guide to install all required system and Python dependencies, run the simulation, and open the generated reports.
+
+Para ejecutar el proyecto en tu máquina según tu sistema operativo:
+Proporcionaré un script de Bash y una guía de configuración para Windows (CMD/PowerShell) que permitirán instalar todas las dependencias del sistema y de Python necesarias, ejecutar la simulación y abrir los informes generados.
+
+### 1. En Windows (CMD / PowerShell)
+
+1. **Instalar GTK3 / Cairo para WeasyPrint (Opcional para exportación nativa PDF):**
+* Descarga e instala el instalador ejecutable de [GTK3 para Windows](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases).
+
+
+2. **Crear entorno e instalar paquetes desde CMD:**
+
+```cmd
+   :: 1. Crear e ingresar al entorno virtual
+   python -m venv venv
+   call venv\Scripts\activate
+
+   :: 2. Actualizar pip e instalar dependencias de la Suite
+   python -m pip install --upgrade pip
+   pip install numpy matplotlib pandas weasyprint
+
+   :: 3. Ejecutar la simulación
+   python codigo_Escudo_ELF_ULF_estructuras_v3_5.py
+   
+
+```
+
+---
+
+### 2. En Linux / Ubuntu / WSL (Windows Subsystem for Linux)
+
+Ejecuta directamente las siguientes líneas en tu terminal:
+
+```bash
+# Dar permisos de ejecución y correr el script automatizado
+chmod +x setup_and_run.sh
+./setup_and_run.sh
+
+```
+
+---
+
+### Archivos Generados
+
+Una vez ejecutado, encontrarás los siguientes entregables en la carpeta `./generated/`:
+
+* `reporte_infraestructura_completo_v35.pdf` — Informe corporativo compilado.
+* `reporte_infraestructura_completo_v35.html` — Reporte web interactivo.
+* `bitacora_rku_espectro_v35.csv` — Registros numéricos de espectros y amortiguamiento.
