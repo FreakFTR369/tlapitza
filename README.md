@@ -1,5 +1,5 @@
 # tlapitza
-SUITE DE ENDURECIMIENTO V3.0 PROTECCIÓN ELECTROMAGNÉTICA, BIOMECÁNICA Y SÍSMICA DE ALTA SEGURIDAD 
+TLAPITZA: SUITE DE ENDURECIMIENTO V5.0 PROTECCIÓN ELECTROMAGNÉTICA, BIOMECÁNICA Y SÍSMICA DE ALTA SEGURIDAD 
 📜 TÉRMINOS DE USO, LICENCIAMIENTO (OPEN SOURCE) Y PROPIEDAD INTELECTUAL
 Esta herramienta es de libre uso y código abierto (Open Source). Con el objetivo de proteger la integridad científica y el esfuerzo técnico detrás de este desarrollo, se establecen las siguientes condiciones obligatorias:
 • 🤝 Solicitud de Colaboración: Cualquier réplica, duplicado, modificación total, parcial o fraccional de este software o de la metodología descrita deberá ser notificada formalmente al autor a través de una solicitud de colaboración. Se requiere obligatoriamente el consentimiento explícito y una confirmación corroborable por parte del autor antes de proceder con cualquier uso derivado.
