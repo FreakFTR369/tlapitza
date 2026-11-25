@@ -53,6 +53,8 @@ cd tlapitza
 pip install numpy matplotlib pandas
 ```
 
+*(Nota: La suite genera reportes HTML interactivos autónomos con exportación nativa a PDF desde el navegador, por lo que **no requiere instalar `weasyprint` ni GTK3** en el sistema).*
+
 *(Nota: Para compilación directa a PDF con `weasyprint`, instala `weasyprint` y, en Windows, el entorno [GTK3 Runtime](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases). En Linux/Debian instala `libpango1.0-dev` y `libcairo2-dev`).*
 
 ---
