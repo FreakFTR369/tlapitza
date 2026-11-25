@@ -1,0 +1,104 @@
+🛡️ 𝐈𝐍𝐅𝐎𝐑𝐌𝐄 𝐄𝐉𝐄𝐂𝐔𝐓𝐈𝐕𝐎: 𝐄𝐍𝐃𝐔𝐑𝐄𝐂𝐈𝐌𝐈𝐄𝐍𝐓𝐎 𝐃𝐄 𝐈𝐍𝐅𝐑𝐀𝐄𝐒𝐓𝐑𝐔𝐂𝐓𝐔𝐑𝐀 𝐂𝐑𝐈́𝐓𝐈𝐂𝐀 (𝐓𝐋𝐀𝐏𝐈𝐓𝐙𝐀 𝐕𝟑.𝟕.𝟏) ⚙️
+
+👨‍🔬 Autor de la Investigación Base: Andres Amaury Pérez Chavez
+📦 Versión: 3.7.1 (Grado Industrial Multiplataforma)
+📜 Licencia: Licencia Dual (Source-Available / Comercial — Requiere consentimiento explícito del autor)
+
+Versión WEB: Suite Multiplataforma (PC/ Android/ iOs)
+https://sites.google.com/view/tlapitza-web-v3-7-1/suite-multiplataforma-pc-android-ios
+
+Versión Python:
+https://github.com/FreakFTR369/tlapitza.git
+
+━━━━━━━━━━━━━━━━━━━━
+
+📌 𝟏. 𝐑𝐄𝐒𝐔𝐌𝐄𝐍 𝐄𝐉𝐄𝐂𝐔𝐓𝐈𝐕𝐎
+
+La suite TLAPITZA V3.7.1 integra un motor de simulación multifísica para diseñar, auditar y endurecer recintos críticos frente a vibraciones mecánicas, pulsos electromagnéticos (ELF/VLF), choques sísmicos/explosivos y fatiga estructural acumulada.
+
+🌐 Ecosistema Multiplataforma 100% Interoperable:
+
+• Python 3: Auditoría automatizada, superficies 3D y reportes ejecutivos.
+
+• Web HTML5 / Canvas: Ejecución universal en PC, Android e iOS sin instalación.
+
+• Rust + Kotlin (UniFFI): Motor paralelo ultrarrápido (< 3 ms) para móviles Android.
+
+━━━━━━━━━━━━━━━━━━━━
+
+🏗️ 𝟐. 𝐃𝐈𝐀𝐆𝐍𝐎́𝐒𝐓𝐈𝐂𝐎 𝐄𝐒𝐓𝐑𝐔𝐂𝐓𝐔𝐑𝐀𝐋 𝐘 𝐂𝐎𝐈𝐍𝐂𝐈𝐃𝐄𝐍𝐂𝐈𝐀 𝐅𝐑𝐄𝐂𝐔𝐄𝐍𝐂𝐈𝐀𝐋
+
+Mediante el análisis de rigidez a la flexión (D) y propagación de ondas, calculamos las frecuencias críticas de coincidencia mecano-acústica (f_c) para blindar las envolventes perimetrales:
+
+🧱 Mampostería Ligera (Drywall Rigidizado 15 mm):
+↳ Frecuencia Crítica (f_c): 2,144.69 Hz
+↳ Mitigación: Amortiguamiento viscoelástico compuesto Ross-Kerwin-Ungar (RKU).
+
+🏢 Losa Monolítica (Concreto Estructural 120 mm):
+↳ Frecuencia Crítica (f_c): 158.14 Hz
+↳ Mitigación: Desacoplo cinemático y sellado viscoelástico perimetral.
+
+🔇 Resultados Vibroacústicos:
+
+• Factor de pérdida compuesto (η_c): Alcanza 0.28 – 0.34 con lámina restringida (H₂ = 1 mm, η₂ = 0.8), suprimiendo resonancias modales.
+
+• Absorción en cavidad: El relleno de lana de roca (α = 0.75) reduce los modos estacionarios en más de 14 dB frente a una cavidad vacía (α = 0.05).
+
+━━━━━━━━━━━━━━━━━━━━
+
+🧲 𝟑. 𝐁𝐋𝐈𝐍𝐃𝐀𝐉𝐄 𝐌𝐔-𝐌𝐄𝐓𝐀𝐋 𝐘 𝐅𝐈𝐋𝐓𝐑𝐎 𝐄𝐍 𝐏𝐀𝐍𝐀𝐋 (𝐖𝐆𝐁𝐂)
+
+Para frenar campos electromagnéticos parasitarios sin bloquear la ventilación térmica, acoplamos láminas de Mu-Metal (1 mm, μ_r = 80,000) con una guía de onda por debajo del corte (Waveguide Beyond Cutoff - WGBC):
+
+🐝 Geometría del Panal: Celdas hexagonales de diámetro d = 5.0 mm, profundidad L = 15.0 mm (relación L/d = 3.0) y arreglo de N = 100 celdas en paralelo.
+
+⚡ Frecuencia de Corte Física (f_corte): 35.16 GHz.
+
+🛡️ Efectividad de Blindaje (SE_Total): Supera los 84 dB en 10 Hz, logrando una atenuación evanescente unitaria de ≈ 96 dB (con penalización controlada de −20 dB por aperturas en paralelo).
+
+━━━━━━━━━━━━━━━━━━━━
+
+⏳ 𝟒. 𝐅𝐀𝐓𝐈𝐆𝐀 𝐄𝐒𝐓𝐑𝐔𝐂𝐓𝐔𝐑𝐀𝐋 (𝐑𝐄𝐆𝐋𝐀 𝐃𝐄 𝐏𝐀𝐋𝐌𝐆𝐑𝐄𝐍-𝐌𝐈𝐍𝐄𝐑)
+
+Evaluando soportes elastoméricos (silentblocks) bajo vibración industrial continua (60 Hz, 8,760 h/año) con esfuerzos alternantes σ = [12.5, 14.2, 10.1] MPa sobre curva S-N (C = 10¹², b = 4.5):
+
+📊 Daño Acumulado Anual (D_total): 0.3864 (< 1.0)
+🔋 Vida Útil Remanente: 61.36%
+🔄 Ciclos Remanentes Estimados: ≈ 2.50 × 10¹⁰ ciclos
+✅ Dictamen Operativo: ESTRUCTURA SEGURA (D < 1.0)
+
+━━━━━━━━━━━━━━━━━━━━
+
+🧠 𝟓. 𝐁𝐈𝐎𝐌𝐄𝐂𝐀́𝐍𝐈𝐂𝐀 (𝟐-𝐌𝐃𝐎𝐅) 𝐘 𝐂𝐇𝐎𝐐𝐔𝐄 𝐒𝐈́𝐒𝐌𝐈𝐂𝐎 (𝐒𝐑𝐒)
+
+🧍 Modelo Biomecánico Acoplado (2-MDOF): Ante un impacto transitorio (F_máx = 5,000 N), la respuesta dinámica entre tórax (M₁ = 60 kg) y cabeza (M₂ = 5.5 kg) mantiene las aceleraciones en márgenes seguros gracias al piso flotante.
+
+🌊 Espectro de Respuesta al Choque (SRS): Frente a un pulso tipo Friedlander de 2.0 g (amortiguamiento ζ = 5%), la amplificación máxima se acota entre 15 Hz y 45 Hz, validando el anclaje de bastidores críticos.
+
+━━━━━━━━━━━━━━━━━━━━
+
+📄 Documento emitido bajo estrictas normas de auditoría de infraestructura. 
+Prototipado Numérico Avanzado TLAPITZA V3.7.1 - 2026.
+
+📜 Licencia y Propiedad Intelectual (Modelo Dual) 
+
+Este proyecto opera bajo un esquema de Licencia Dual (Source-Available) propiedad de  Andres Amaury Perez Chavez @FreakFTR369
+https://github.com/FreakFTR369
+https://github.com/FreakFTR369/tlapitza.git
+
+Consulta el submenú "Licencia" para los términos legales íntegros.
+
+🎓 Uso Académico, Personal y de Investigación (Gratuito): 100% libre de costo. Queda prohibido comercializar o cobrar a terceros bajo esta modalidad.
+
+🤝 Colaboraciones Científicas y Obras Derivadas: Cualquier réplica, modificación o bifurcación del código o la metodología requiere aprobación previa. Envía tu propuesta a tochininmeztik@proton.me con el asunto: "Solicitud de Colaboración".
+
+💼 Uso Comercial y Consultorías Remuneradas: Para integrar TLAPITZA en servicios de consultoría, auditorías pagadas o despliegues corporativos, es obligatorio adquirir una autorización comercial previa. Escribe a tochininmeztik@proton.me con el asunto: "Solicitud comercial".
+
+© 2026 Andrés Amaury Pérez Chávez. Todos los derechos reservados.
+
+#FTR_E 
+#NoFuture 
+#GnXtZ 
+Go neXtZ!
+
+
