@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "TLAPITZA: Suite Total de Simulación y Endurecimiento de Infraestructura Crítica"
+message: "Si utilizas este software, su código fuente o la metodología de investigación en tu trabajo académico o técnico, por favor cítalo utilizando los metadatos de este archivo."
+type: software
+authors:
+  - family-names: "Pérez Chávez"
+    given-names: "Andrés Amaury"
+    alias: "FreakFTR369"
+    email: "tochininmeztik@proton.me"
+version: "3.7.1"
+date-released: "2026-11-25"
+url: "https://sites.google.com/view/tlapitza-web-v3-7-1/suite-multiplataforma-pc-android-ios"
+repository-code: "https://github.com/FreakFTR369/tlapitza"
+license-url: "https://github.com/FreakFTR369/tlapitza/blob/main/LICENSE"
+keywords:
+  - "infraestructura crítica"
+  - "blindaje electromagnético"
+  - "waveguide beyond cutoff"
+  - "fatiga mecánica"
+  - "regla de Palmgren-Miner"
+  - "espectro de choque"
+  - "endurecimiento físico"
+  - "simulación numérica"
