@@ -1,0 +1,13 @@
+# Salidas generadas por la suite
+generated/
+
+# Entornos virtuales y caché de Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
