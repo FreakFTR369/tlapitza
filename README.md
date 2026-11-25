@@ -87,3 +87,5 @@ Encontrarás los resultados dentro del directorio `./generated/`:
 
 © 2026 **Andrés Amaury Pérez Chávez** ([@FreakFTR369](https://github.com)). Todos los derechos reservados.
 
+[![English](https://shields.io)](./README_EN.md))
+
