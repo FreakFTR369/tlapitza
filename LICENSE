@@ -1,0 +1,47 @@
+LICENCIA DUAL DE CÓDIGO DISPONIBLE Y USO NO COMERCIAL — TLAPITZA v3.5
+Copyright (c) 2026 Andrés Amaury Pérez Chávez (@FreakFTR369). Todos los derechos reservados.
+
+Por la presente se concede permiso, de forma gratuita, a cualquier persona física o 
+institución académica/de investigación que obtenga una copia de este software, su 
+código fuente, su documentación y los archivos metodológicos asociados (en adelante, 
+el "Software"), para ejecutar, estudiar y auditar el Software exclusivamente con 
+fines personales, educativos o de investigación científica sin ánimo de lucro, 
+sujeto estricto a las siguientes condiciones obligatorias:
+
+1. USO NO COMERCIAL VS. LICENCIAMIENTO COMERCIAL ([LICENCIA DUAL])
+a) Uso Gratuito (No Comercial): El uso, ejecución y auditoría del Software es 
+   100% gratuito exclusivamente para fines personales, educativos o de investigación 
+   científica sin ánimo de lucro. Queda prohibido revender, sublicenciar o cobrar 
+   a terceros por el acceso, ejecución, alojamiento o despliegue bajo esta 
+   modalidad gratuita.
+b) Uso Comercial y Consultorías Remuneradas: Si una persona física, empresa, 
+   consultora o entidad requiere utilizar, integrar o desplegar el Software o su 
+   metodología en proyectos comerciales, corporativos o consultorías remuneradas, 
+   deberá gestionar previamente una licencia comercial independiente enviando un 
+   correo electrónico a tochininmeztik@proton.me bajo el asunto exacto: 
+   "Solicitud comercial". Ningún uso comercial está autorizado sin un acuerdo 
+   escrito, firmado y corroborable emitido por el Autor.
+
+2. RESTRICCIÓN DE OBRAS DERIVADAS Y SOLICITUD DE COLABORACIÓN
+No se permite copiar, duplicar, bifurcar (fork) para redistribución, ni realizar 
+modificaciones totales, parciales o fraccionales del Software o de su metodología 
+para su publicación o distribución externa sin haber obtenido previamente:
+  a) Una notificación formal enviada a tochininmeztik@proton.me bajo el asunto 
+     exacto: "Solicitud de Colaboración".
+  b) El consentimiento explícito, por escrito y corroborable por parte del Autor 
+     antes de proceder con cualquier uso o desarrollo derivado.
+
+3. TITULARIDAD Y ATRIBUCIÓN
+La titularidad íntegra de los derechos de autor, la propiedad intelectual de los 
+algoritmos, el diseño del núcleo matemático y la investigación científica base 
+pertenecen exclusivamente a Andrés Amaury Pérez Chávez. Cualquier cita académica 
+o mención técnica deberá acreditar de forma visible al Autor y la versión del 
+Software utilizada.
+
+4. EXENCIÓN DE GARANTÍAS Y LIMITACIÓN DE RESPONSABILIDAD
+EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O 
+IMPLÍCITA, INCLUYENDO PERO NO LIMITADO A GARANTÍAS DE COMERCIABILIDAD, IDONEIDAD 
+PARA UN PROPÓSITO PARTICULAR O NO INFRACCIÓN. EN NINGÚN CASO EL AUTOR SERÁ 
+RESPONSABLE DE NINGUNA RECLAMACIÓN, DAÑO O RESPONSABILIDAD CIVIL, PENAL O TÉCNICA 
+(INCLUYENDO FALLOS EN INFRAESTRUCTURAS CRÍTICAS) QUE SURJA DE O EN CONEXIÓN CON 
+EL USO O EJECUCIÓN DEL SOFTWARE.
