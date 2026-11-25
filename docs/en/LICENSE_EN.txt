@@ -1,0 +1,44 @@
+DUAL SOURCE-AVAILABLE LICENSE — TLAPITZA v3.7.1
+Copyright (c) 2026 Andrés Amaury Pérez Chávez (@FreakFTR369). All rights reserved.
+
+Permission is hereby granted, free of charge, to any individual or academic/research 
+institution obtaining a copy of this software, its source code, documentation, and 
+associated methodological files (hereinafter, the "Software"), to execute, study, and 
+audit the Software strictly for personal, educational, or non-profit scientific 
+research purposes, subject to the following mandatory conditions:
+
+1. NON-COMMERCIAL USE VS. COMMERCIAL LICENSING (DUAL LICENSE)
+   a) Free Use (Non-Commercial): Execution, study, and auditing of the Software are 
+      100% free of charge exclusively for personal, educational, or non-profit scientific 
+      research purposes. Reselling, renting, or charging third parties for access, 
+      execution, or deployment under this free tier is strictly prohibited.
+   b) Commercial Use and Paid Consulting: Any individual, corporation, consulting firm, 
+      or entity seeking to use, integrate, or deploy the Software or its underlying 
+      methodology in commercial projects, corporate environments, or paid consulting 
+      services must obtain a separate commercial license prior to use by sending an 
+      email to tochininmeztik@proton.me with the exact subject line: 
+      "Solicitud comercial". No commercial use is authorized without a written and 
+      verifiable agreement issued by the Author.
+
+2. RESTRICTION ON DERIVATIVE WORKS AND COLLABORATION REQUESTS
+   Copying, duplicating, forking for external redistribution, or creating total, partial, 
+   or fractional modifications of the Software or its methodology is prohibited unless 
+   the user has previously obtained:
+   a) A formal notification sent to tochininmeztik@proton.me with the exact subject 
+      line: "Solicitud de Colaboración".
+   b) Explicit, written, and verifiable consent from the Author prior to proceeding 
+      with any derivative use or publication.
+
+3. OWNERSHIP AND ATTRIBUTION
+   Full ownership of copyrights, intellectual property of the algorithms, mathematical 
+   core design, and foundational scientific research belongs exclusively to 
+   Andrés Amaury Pérez Chávez (https://github.com/FreakFTR369). Any academic citation 
+   or technical reference must visibly credit the Author and the Software version used.
+
+4. DISCLAIMER OF WARRANTIES AND LIMITATION OF LIABILITY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+   INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A 
+   PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR 
+   ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR 
+   OTHERWISE (INCLUDING FAILURES IN CRITICAL INFRASTRUCTURES), ARISING FROM, OUT OF, 
+   OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
