@@ -1,0 +1,52 @@
+# 🛡️ TLAPITZA: Suite Total de Simulación y Endurecimiento de Infraestructura Crítica (v3.7.1)
+
+Suite numérica de grado industrial diseñada para el análisis, modelado y endurecimiento físico, acústico, electromagnético y biomecánico de infraestructuras críticas.
+
+**Autor de la Investigación Base:** Andres Amaury Pérez Chavez  
+**Licencia:** OpenSource - No Comercial *(Requiere consentimiento explícito y corroborable)*
+
+---
+
+## 🚀 Novedades en la Versión 3.7.1
+
+Esta actualización consolida el núcleo analítico de **TLAPITZA** incorporando tres módulos avanzados de ingeniería:
+
+1. **Filtro Geométrico Waveguide Beyond Cutoff (WGBC):**
+   * Modela el blindaje electromagnético en rejillas de ventilación tipo panal de abejas (*honeycomb*) para chasis de Mu-Metal.
+   * Calcula la frecuencia de corte física ($f_c$) y la atenuación evanescente exponencial, penalizando las fugas por el arreglo de aperturas en paralelo.
+2. **Análisis de Fatiga Mecánica y Vida Útil Remanente (Regla de Palmgren-Miner):**
+   * Evalúa el daño acumulado ($D_{\text{total}}$) en soportes elásticos (*silentblocks*) sometidos a espectros de vibración continua mediante curvas $S\text{-}N$.
+   * Estima el porcentaje de vida útil restante y los ciclos disponibles antes de la falla estructural.
+3. **Visualización Paramétrica Tridimensional (3D):**
+   * Mapea mediante `Axes3D` la superficie de respuesta de atenuación geométrica WGBC en función del diámetro de celda ($d$) y la profundidad del conducto ($L$).
+4. **Resiliencia de Exportación (PDF / HTML):**
+   * Compila reportes ejecutivos en PDF nativo mediante `WeasyPrint` con respaldo automático a HTML autónomo en caso de ausencia de librerías gráficas del sistema.
+
+---
+
+## 📋 Requisitos e Instalación
+
+### 1. Dependencias de Python
+Asegúrate de contar con **Python 3.8+** e instala los paquetes requeridos:
+
+```bash
+pip install numpy matplotlib pandas weasyprint
+```
+
+*(Nota: Para habilitar la compilación directa a PDF con `weasyprint` en Windows, instala previamente el entorno [GTK3 Runtime](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases). En Linux/Debian instala `libpango1.0-dev` y `libcairo2-dev`).*
+
+---
+
+## ▶️ Ejecución
+
+Ejecuta el script principal desde tu terminal o entorno virtual:
+
+```bash
+python tlapitza_V3.7.1.py
+```
+
+### 📦 Entregables Generados
+Al finalizar la simulación, encontrarás los siguientes archivos dentro del directorio `./generated/`:
+* `reporte_infraestructura_completo_v3.7.1.pdf` — Informe corporativo compilado.
+* `reporte_infraestructura_completo_v3.7.1.html` — Reporte web interactivo de respaldo.
+* `bitacora_tlapitza_v3.7.1.csv` — Registro metrológico con espectros RKU y efectividad de blindaje.
