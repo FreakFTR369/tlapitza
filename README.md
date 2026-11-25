@@ -1,4 +1,4 @@
-# TLAPITZA
+# TLAPITZA © 2026 Andrés Amaury Pérez Chávez. Todos los derechos reservados.
 TLAPITZA: Suite Total de Simulación y Endurecimiento de Infraestructura Crítica Protecció Electromagnética, Biomecánica Y Sísmica de Alta Seguridad 
 
 📜 Licencia y Propiedad Intelectual (Modelo Dual) 
