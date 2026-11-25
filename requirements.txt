@@ -1,0 +1,5 @@
+numpy>=1.21.0
+matplotlib>=3.5.0
+pandas>=1.3.0
+# Opcional (solo si deseas compilar PDFs desde línea de comandos en lugar de usar el reporte HTML interactivo):
+# weasyprint>=60.0
