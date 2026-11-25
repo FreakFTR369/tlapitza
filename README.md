@@ -1,8 +1,18 @@
 # tlapitza
-TLAPITZA: SUITE DE ENDURECIMIENTO V5.0 PROTECCIÓN ELECTROMAGNÉTICA, BIOMECÁNICA Y SÍSMICA DE ALTA SEGURIDAD 
-📜 TÉRMINOS DE USO, LICENCIAMIENTO (OPEN SOURCE) Y PROPIEDAD INTELECTUAL
-Esta herramienta es de libre uso y código abierto (Open Source). Con el objetivo de proteger la integridad científica y el esfuerzo técnico detrás de este desarrollo, se establecen las siguientes condiciones obligatorias:
-• 🤝 Solicitud de Colaboración: Cualquier réplica, duplicado, modificación total, parcial o fraccional de este software o de la metodología descrita deberá ser notificada formalmente al autor a través de una solicitud de colaboración. Se requiere obligatoriamente el consentimiento explícito y una confirmación corroborable por parte del autor antes de proceder con cualquier uso derivado.
-• 🚫 Prohibición Comercial: Queda estrictamente prohibido el registro de esta herramienta, su código o su metodología para fines comerciales, así como cualquier actividad de difusión o explotación lucrativa utilizando esta investigación.
-• 🛑 Uso Gratuito Obligatorio: Queda totalmente prohibido comercializar, revender o cobrar a terceros por el uso, despliegue o ejecución de esta herramienta. Su naturaleza es y seguirá siendo 100% gratuita.
-©️ Titularidad de los Derechos de Autor: Todo el desarrollo de la herramienta, la metodología aplicada y la investigación científica expuesta pertenecen en su totalidad a su creador legítimo: Andres Amaury Pérez Chavez.
+TLAPITZA: Suite Total de Simulación y Endurecimiento de Infraestructura Crítica Protecció Electromagnética, Biomecánica Y Sísmica de Alta Seguridad 
+📜 Licencia y Propiedad Intelectual (Modelo Dual) 
+
+Este proyecto opera bajo un esquema de Licencia Dual (Source-Available) propiedad de Andrés Amaury Pérez Chávez
+
+@FreakFTR369 
+https://github.com/FreakFTR369
+
+Consulta el archivo [`LICENSE`](./LICENSE) para los términos legales íntegros.
+
+🎓 Uso Académico, Personal y de Investigación (Gratuito): 100% libre de costo. Queda prohibido comercializar o cobrar a terceros bajo esta modalidad.
+
+🤝 Colaboraciones Científicas y Obras Derivadas: Cualquier réplica, modificación o bifurcación del código o la metodología requiere aprobación previa. Envía tu propuesta a tochininmeztik@proton.me con el asunto: "Solicitud de Colaboración".
+
+💼 Uso Comercial y Consultorías Remuneradas: Para integrar TLAPITZA en servicios de consultoría, auditorías pagadas o despliegues corporativos, es obligatorio adquirir una autorización comercial previa. Escribe a tochininmeztik@proton.me con el asunto: "Solicitud comercial".
+
+© 2026 Andrés Amaury Pérez Chávez. Todos los derechos reservados.
